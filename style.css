@@ -158,9 +158,18 @@ main {
     height: 400px;
     width: 370px;
     border-radius: 50% 50% 0px 0px;
-    background-color: #ddd;
     font-size: 30px;
     text-align: center;
+}
+.color-one{
+    background-color: #ddd;
+
+}
+.color-two{
+    background-color: #0597A026;
+}
+.color-three{
+    background-color: #477D1126;
 }
 
 .pink-img-box {
