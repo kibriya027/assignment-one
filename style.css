@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common CSS Start */
+body {
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.btn-i {
+    border: 0px;
+    padding: 20px 43px;
+    background-color: #E55473;
+    border-radius: 5px;
+    color: #FFFFFF;
+    /* margin-left: 20px; */
+}
+
+/* Common CSS End */
+
+/* Header CSS Start */
+/* Navbar CSS */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(78, 126, 122);
+    padding: 20px 0px;
+}
+
+.menu-bar {
+    color: white;
+    font-size: 40px;
+}
+
+nav h3 {
+    color: #13d906;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.shop-i {
+    color: #0bec7f
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+nav li a {
+    color: white;
+}
+
+nav li input {
+    border: 0px;
+    padding: 17px 67px 17px 21px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+nav li input:hover {
+    border: 0px solid white;
+}
+
+/* Banner CSS Start */
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #E554731A;
+    gap: 10px;
+    padding: 0px 240px;
+}
+
+.col-i {}
+
+.col-i>h2 {
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.col-i>p {
+    color: #27272799;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin: 0px 365px 20px 0px;
+}
+
+.col-ii-img {
+    width: 500px;
+}
+
+/* Header CSS End */
+
+
+/* Main Section Start */
+
+main {
+    background-color: #FFFFFF;
+}
+
+/* Our Featured Flowers CSS */
+.featured-flower {
+    padding: 100px 500px;
+    text-align: center;
+}
+
+.featured-flower-heading h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.featured-flower-content p {
+    color: #27272799;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* Pink Flower Tree Start */
+
+.pink-tree {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 240px;
+    gap: 10px;
+}
+
+.pink-tree p {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.pink-tree-items {
+    height: 400px;
+    width: 370px;
+    border-radius: 50% 50% 0px 0px;
+    background-color: #ddd;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pink-img-box {
+    height: 300px;
+    margin: 100px 0px 0px 0px;
+}
+
+/* Pink Flower Tree End */
+
+/* Section Service Start */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 240px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-items {
+    padding: 100px;
+}
+
+.service-items p {
+    margin-top: 20px;
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.img-ii {
+    height: 50px;
+    width: 50px;
+}
+
+/* Section Service End */
+
+
+/* Section Discount CSS Star */
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.column-i {
+    padding: 0px 50px;
+}
+
+.column-i > h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.column-i p {
+    color: #27272799;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.columnii {}
+
+/* Section Discount CSS End */
+/* Instagram Section Start */
+.instagram{
+    text-align: center;
+    margin: 50px 500px;
+}
+.instagram h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.instagram p{
+    color: #27272799;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* Instagram Section End */
+/* Images Section CSS Start */
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 240px;
+    gap: 20px;
+}
+/* Images Section CSS End */
+
+/* Main Footer CSS Start */
+.main-footer{
+    text-align: center;
+    margin: 100px 240px;
+    background-image: url('./images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 100px;
+}
+.main-footer h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.main-footer p{
+    color: #27272799;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.main-footer input{
+    border: 0px;
+    padding: 17px 67px 17px 21px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Main Footer CSS End */
+
+/* Main Section End */
+
+/* Footer Section Start */
+footer{
+    background: #111010;
+    padding: 100px;
+    text-align: center;
+}
+.shes{
+    padding: 0px 582px;
+}
+footer h3{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+footer span{
+    color: #FFFFFF;
+}
+footer p{
+    color: #FFFFFFE5;
+    font-size: 19px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+footer .p{
+    color: #FFFFFF66;
+}
+
+/* Footer Section End */
